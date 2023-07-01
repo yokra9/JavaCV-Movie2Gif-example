@@ -1,0 +1,13 @@
+{
+    "image": "maven:3.9.3-eclipse-temurin-17",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": "false",
+            "username": "vscode",
+            "userUid": "1000",
+            "userGid": "1000",
+            "upgradePackages": "true"
+        }
+    },
+    "remoteUser": "vscode"
+}
